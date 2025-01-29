@@ -1,0 +1,916 @@
+[{
+  "_id": {
+    "$oid": "624da34152971d3502ad498c"
+  },
+  "name": "April",
+  "question": [
+    {
+      "question": "Which animal is known as the 'Ship of the Desert\"?",
+      "option_1": "Camel",
+      "option_2": "Lion",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1683277031427_camel.jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "63987594f0b4e5a70fd7dc8c"
+      }
+    },
+    {
+      "question": "Rainbow consist of how many colors?",
+      "option_1": "6 colors",
+      "option_2": "7 colors",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679477708729_1679477524336.jpeg",
+      "answer": "2",
+      "_id": {
+        "$oid": "63987626f0b4e5a70fd7dca4"
+      }
+    },
+    {
+      "question": "Name the National bird of India?",
+      "option_1": "Peacock",
+      "option_2": "Parrot",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679467997539_national_bird_inner.jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "639876f4f0b4e5a70fd7dcc2"
+      }
+    },
+    {
+      "question": "Name the National animal of India?",
+      "option_1": "Lion",
+      "option_2": "Tiger",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679468041341_national_animal_inner.jpg",
+      "answer": "2",
+      "_id": {
+        "$oid": "63987710f0b4e5a70fd7dcc8"
+      }
+    },
+    {
+      "question": " Who designed the National Flag of India?",
+      "option_1": "Pingali Venkayya.",
+      "option_2": "Mahatma Gandhi",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679468090459_pingali-venkayya-93320466.jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "63987a3bf0b4e5a70fd7dcd4"
+      }
+    },
+    {
+      "question": "Name the National river of India?",
+      "option_1": "Godavari",
+      "option_2": "Ganga",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679468146864_rivers.jpg",
+      "answer": "2",
+      "_id": {
+        "$oid": "63987ab7f0b4e5a70fd7dcda"
+      }
+    },
+    {
+      "question": "What is the capital of India?",
+      "option_1": "New Delhi",
+      "option_2": "Delhi",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1671085127795_delhi.jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "63987b43f0b4e5a70fd7dce0"
+      }
+    },
+    {
+      "question": "Name the biggest continent in the world?",
+      "option_1": "Russia",
+      "option_2": "Asia",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1671085181292_world_map.jpg",
+      "answer": "2",
+      "_id": {
+        "$oid": "63987b5df0b4e5a70fd7dce6"
+      }
+    },
+    {
+      "question": "Name the house made of ice?",
+      "option_1": "Igloo",
+      "option_2": "Iceberg",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679468292840_wintry-scene-with-snowy-trees-1127627348-a11663068fad4b64955003feb3b47414.jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "63987bccf0b4e5a70fd7dcf6"
+      }
+    },
+    {
+      "question": "Sun rises in the.....",
+      "option_1": "West",
+      "option_2": "East",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1670937650618_Sunrise.jpg",
+      "answer": "2",
+      "_id": {
+        "$oid": "63987c32f0b4e5a70fd7dd02"
+      }
+    },
+    {
+      "question": "How many sides are there in a triangle?",
+      "option_1": "3 Sides",
+      "option_2": "4 sides",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1670937743075_Triangle.png",
+      "answer": "1",
+      "_id": {
+        "$oid": "63987c8ff0b4e5a70fd7dd08"
+      }
+    },
+    {
+      "question": "Who is the first woman prime minister of India?",
+      "option_1": "Pratibha patil",
+      "option_2": "Indira Gandhi",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679468494464_download.jpg",
+      "answer": "2",
+      "_id": {
+        "$oid": "63987cc4f0b4e5a70fd7dd0e"
+      }
+    },
+    {
+      "question": "Name the first man to walk on the Moon?",
+      "option_1": "Rakesh Sharma",
+      "option_2": "Neil Armstrong",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679468894606_download (1).jpg",
+      "answer": "2",
+      "_id": {
+        "$oid": "63987d9cf0b4e5a70fd7dd42"
+      }
+    },
+    {
+      "question": "Which festival is called the festival of colours?",
+      "option_1": "Holi",
+      "option_2": "Diwali",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679469174718_hpocmsno_holi-skin-care_625x300_14_March_22.jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "63987db4f0b4e5a70fd7dd48"
+      }
+    },
+    {
+      "question": "Name the smallest continent?",
+      "option_1": "Australia",
+      "option_2": "Denmark",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1670938113826_smallest-continent.png",
+      "answer": "1",
+      "_id": {
+        "$oid": "63987e02f0b4e5a70fd7dd4e"
+      }
+    },
+    {
+      "question": "Which is the principal source of energy for the Earth?",
+      "option_1": "Sun",
+      "option_2": "Moon",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1670938171658_sun and moon.jpeg",
+      "answer": "1",
+      "_id": {
+        "$oid": "63987e3bf0b4e5a70fd7dd54"
+      }
+    },
+    {
+      "question": "Name the planet known as the Red Planet?",
+      "option_1": "Mars",
+      "option_2": "Jupiter",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1670938260226_solarsystem.jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "63987e94f0b4e5a70fd7dd5f"
+      }
+    },
+    {
+      "question": "Name the largest ocean in the World?",
+      "option_1": "Atlantic Ocean",
+      "option_2": "Pacific Ocean",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1670938393107_ocean.jpg",
+      "answer": "2",
+      "_id": {
+        "$oid": "63987f19f0b4e5a70fd7dd6b"
+      }
+    },
+    {
+      "question": "Who is the Father of our Nation?",
+      "option_1": "Mahatma Gandhi",
+      "option_2": "Subash Chandra Bose",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679469079849_11B-Mahatma-Ghandi_en.jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "63987fe5f0b4e5a70fd7dd76"
+      }
+    },
+    {
+      "question": "Name a natural satellite of Earth?",
+      "option_1": "Mars",
+      "option_2": "Moon",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679469094636_snbrHBRigvvzjxNGuUtcck.jpg",
+      "answer": "2",
+      "_id": {
+        "$oid": "63988016f0b4e5a70fd7dd7c"
+      }
+    },
+    {
+      "question": "Who of the following invented Facebook?",
+      "option_1": "Mark Zuckerberg",
+      "option_2": "Benjamin Franklin",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1670939215147_facebook.png",
+      "answer": "1",
+      "_id": {
+        "$oid": "6398824ff0b4e5a70fd7dd94"
+      }
+    },
+    {
+      "question": "Which is the smallest bird?",
+      "option_1": "Swift",
+      "option_2": "Hummingbird",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679469277828_download (2).jpg",
+      "answer": "2",
+      "_id": {
+        "$oid": "639882b1f0b4e5a70fd7dd9e"
+      }
+    },
+    {
+      "question": "Who was India's first President?",
+      "option_1": "Dr. Rajendra Prasad",
+      "option_2": "Pandit Jawaharlal Nehru",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679469378328_images.jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "63988328f0b4e5a70fd7ddab"
+      }
+    },
+    {
+      "question": "Who of the following is the chairman of the Parliamentary Affairs Committee?",
+      "option_1": "Prime Minister",
+      "option_2": "Home Minister",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1671086622068_parliament.jpg",
+      "answer": "2",
+      "_id": {
+        "$oid": "639883daf0b4e5a70fd7ddb7"
+      }
+    },
+    {
+      "question": "Name the Father of the Indian Constitution?",
+      "option_1": "Dr. B. R. Ambedkar",
+      "option_2": "Dr. Rajendra prasad",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679469387548_ambedkar-copy.jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "63988443f0b4e5a70fd7ddbd"
+      }
+    },
+    {
+      "question": "Victoria Memorial is situated in which city of India?",
+      "option_1": "Kolkata",
+      "option_2": "Orissa",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1671086434268_vic_memo.jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "639884b9f0b4e5a70fd7ddc9"
+      }
+    },
+    {
+      "question": "Which means of transport is considered the fastest?",
+      "option_1": "Air Transport",
+      "option_2": "Rail Transport",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679469527073_images (1).jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "639884e4f0b4e5a70fd7ddcf"
+      }
+    },
+    {
+      "question": "Sparrow is a bird known for its intelligence.",
+      "option_1": "False",
+      "option_2": "True",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1671086319475_housesparrow.jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "63999664f0b4e5a70fd7e31a"
+      }
+    },
+    {
+      "question": "Plants absorbs Carbondioxide?",
+      "option_1": "True",
+      "option_2": "False",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1671086383228_CO2.jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "6399968df0b4e5a70fd7e320"
+      }
+    },
+    {
+      "question": "............ city is called Pearl City?",
+      "option_1": "Hyderabad",
+      "option_2": "Delhi",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1671085401510_Charminar-Hyderabad.jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "63999795f0b4e5a70fd7e342"
+      }
+    },
+    {
+      "question": " PV Sindhu is associated with.........?",
+      "option_1": "Badminton",
+      "option_2": "Tennis",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679469798433_images (2).jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "639997bff0b4e5a70fd7e352"
+      }
+    },
+    {
+      "question": "Tea is the famous crop of ?",
+      "option_1": "Assam",
+      "option_2": "Munnar",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1671085456444_tea.jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "63999846f0b4e5a70fd7e376"
+      }
+    },
+    {
+      "question": "Independence Day of India ?",
+      "option_1": "15th August",
+      "option_2": "26th January",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1671085481587_1670411044471_1670411044470 (3).jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "63999a0bf0b4e5a70fd7e3b6"
+      }
+    },
+    {
+      "question": "Name the hardest substance available on Earth?",
+      "option_1": "Diamond",
+      "option_2": "Gold",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679469995931_download (3).jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "63999ba6f0b4e5a70fd7e3df"
+      }
+    },
+    {
+      "question": "Name a shape that has ten sides?",
+      "option_1": "Pentagon",
+      "option_2": "Decagon",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1671086242788_decagon.png",
+      "answer": "2",
+      "_id": {
+        "$oid": "63999bc9f0b4e5a70fd7e3ed"
+      }
+    },
+    {
+      "question": "An ostrich’s eye is bigger than its brain. ",
+      "option_1": "False",
+      "option_2": "True",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679470151411_download (4).jpg",
+      "answer": "2",
+      "_id": {
+        "$oid": "63999d11f0b4e5a70fd7e412"
+      }
+    },
+    {
+      "question": "William Shakespeare is a dramatist?",
+      "option_1": "True",
+      "option_2": "False",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679470190826_cafa935a461aee1e2562cd7cc3c38f4d.jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "63999d4df0b4e5a70fd7e434"
+      }
+    },
+    {
+      "question": "Which is the biggest desert in the world?",
+      "option_1": "Thar Desert",
+      "option_2": "Sahara Desert",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1671085656276_desert.jpg",
+      "answer": "2",
+      "_id": {
+        "$oid": "63999e1ff0b4e5a70fd7e454"
+      }
+    },
+    {
+      "question": "Which is the first element on the periodic table of elements?",
+      "option_1": "Oxygen",
+      "option_2": "Hydrogen",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1671085738356_chemical formaula chart.jpg",
+      "answer": "2",
+      "_id": {
+        "$oid": "63999e48f0b4e5a70fd7e45a"
+      }
+    },
+    {
+      "question": "Who is the inventor of the electric Bulb?",
+      "option_1": "Isaac Newton",
+      "option_2": "Thomas Alva Edison",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1671086124171_bulb.jpg",
+      "answer": "2",
+      "_id": {
+        "$oid": "63999e74f0b4e5a70fd7e466"
+      }
+    },
+    {
+      "question": "How many strings does a violin have?",
+      "option_1": "Five",
+      "option_2": "Four",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1671086021547_violin.jpg",
+      "answer": "2",
+      "_id": {
+        "$oid": "63999f9ff0b4e5a70fd7e489"
+      }
+    },
+    {
+      "question": "Which country is home to the kangaroo?",
+      "option_1": "Australia",
+      "option_2": "Africa",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1671085799347_red_kangaroo.jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "63999fd1f0b4e5a70fd7e495"
+      }
+    },
+    {
+      "question": "WWW stands for?",
+      "option_1": "World Wide Web",
+      "option_2": "World Web Work",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1671085863531_august-1-world-wide-web-day.jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "6399a002f0b4e5a70fd7e49b"
+      }
+    },
+    {
+      "question": "How many stars are there in the American flag?",
+      "option_1": "40",
+      "option_2": "50",
+      "image_name": "https://housi.s3.ap-south-1.amazonaws.com/folder/1671085955563_american-flag.jpg",
+      "answer": "2",
+      "_id": {
+        "$oid": "6399a036f0b4e5a70fd7e4a7"
+      }
+    },
+    {
+      "question": "who is Sachin Tendulkar?",
+      "option_1": "Cricketer",
+      "option_2": "football player",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679470862719_1_5e33f9e8e3816.jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641ab10e3acf9f5cb6e39582"
+      }
+    },
+    {
+      "question": "what is this?",
+      "option_1": "Satelite",
+      "option_2": "Spaceship",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679470951784_istockphoto-1324502848-170667a.jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641ab1673acf9f5cb6e39588"
+      }
+    },
+    {
+      "question": "What is this?",
+      "option_1": "Bike",
+      "option_2": "Car",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679471135989_front-left-side-47.jpg",
+      "answer": "2",
+      "_id": {
+        "$oid": "641ab21f3acf9f5cb6e3958e"
+      }
+    },
+    {
+      "question": "Who is this person?",
+      "option_1": "Messi",
+      "option_2": "Rolando",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679471454875_images (3).jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641ab35e3acf9f5cb6e39594"
+      }
+    },
+    {
+      "question": "What is this Music Instrument?",
+      "option_1": "Drums",
+      "option_2": "Flute",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679472089051_360_F_20184863_qV8GuD2J9rmVJfremxxjaHfnMrCAceeI.jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641ab5d93acf9f5cb6e3959a"
+      }
+    },
+    {
+      "question": "Who is this Cricketer?",
+      "option_1": "MS Dhoni",
+      "option_2": "Kapil Dev",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679472142168_download (6).jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641ab60e3acf9f5cb6e395a0"
+      }
+    },
+    {
+      "question": "Name the ship?",
+      "option_1": "Titanic",
+      "option_2": "Blackpearl",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679472238842_download (7).jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641ab6733acf9f5cb6e395a6"
+      }
+    },
+    {
+      "question": "Who is this Business Man?",
+      "option_1": "Jeff Bezos",
+      "option_2": "Elon Musk",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679472445919_download (8).jpg",
+      "answer": "2",
+      "_id": {
+        "$oid": "641ab7433acf9f5cb6e395ac"
+      }
+    },
+    {
+      "question": "What is this?",
+      "option_1": "Kite",
+      "option_2": "Flag",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679472638016_download (9).jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641ab7fd3acf9f5cb6e395b2"
+      }
+    },
+    {
+      "question": "Who is this Indian mathematician?",
+      "option_1": "Aryabhatta",
+      "option_2": "Srinivasa Ramanujan",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679477923184_1679477523558.jpeg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641acca33acf9f5cb6e395d2"
+      }
+    },
+    {
+      "question": "What is this?",
+      "option_1": "Butterfly",
+      "option_2": "Honey bee",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679477986727_1679477523508.png",
+      "answer": "2",
+      "_id": {
+        "$oid": "641acce23acf9f5cb6e395d8"
+      }
+    },
+    {
+      "question": "The Mahabharat war was fought between Pandvas and Kaurvas for...? ",
+      "option_1": "18 Days",
+      "option_2": "16 Days",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679478104370_1679477523610.jpeg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641acd593acf9f5cb6e395de"
+      }
+    },
+    {
+      "question": "What is this Icon?",
+      "option_1": "Apple ",
+      "option_2": "Android",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679478210680_1679477523661.png",
+      "answer": "2",
+      "_id": {
+        "$oid": "641acdc23acf9f5cb6e395f0"
+      }
+    },
+    {
+      "question": "Who is this philanthropist?",
+      "option_1": "Ratan Tata",
+      "option_2": "Mukesh Ambani",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679478313519_1679477523921.jpeg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641ace293acf9f5cb6e395f6"
+      }
+    },
+    {
+      "question": "What is this flower?",
+      "option_1": "Lilly",
+      "option_2": "Rose",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679478442237_1679477523887.png",
+      "answer": "2",
+      "_id": {
+        "$oid": "641aceaa3acf9f5cb6e3960b"
+      }
+    },
+    {
+      "question": "What is this?",
+      "option_1": "Rocket",
+      "option_2": "Satelite",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679478490168_1679477523965.png",
+      "answer": "1",
+      "_id": {
+        "$oid": "641aceda3acf9f5cb6e39611"
+      }
+    },
+    {
+      "question": "Who is this Actor?",
+      "option_1": "Raj kumar Rao",
+      "option_2": "Sushant Singh Rajput",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679478567966_1679477524302.jpeg",
+      "answer": "2",
+      "_id": {
+        "$oid": "641acf283acf9f5cb6e39617"
+      }
+    },
+    {
+      "question": "What is this?",
+      "option_1": "Hockey Stick",
+      "option_2": "Cricket Bat",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679478633383_1679477524120.jpeg",
+      "answer": "2",
+      "_id": {
+        "$oid": "641acf693acf9f5cb6e3961d"
+      }
+    },
+    {
+      "question": "Who is this Freedom Fighter?",
+      "option_1": "Bhagat Singh",
+      "option_2": "Chandrashekhar Azad",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679478728566_1679477523823.jpeg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641acfc83acf9f5cb6e39623"
+      }
+    },
+    {
+      "question": "What is this?",
+      "option_1": "Ear Phones",
+      "option_2": "AirPods",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679478756565_1679477523855.jpeg",
+      "answer": "2",
+      "_id": {
+        "$oid": "641acfe43acf9f5cb6e39629"
+      }
+    },
+    {
+      "question": "What is this?",
+      "option_1": "Taj Mahal",
+      "option_2": "Qutab Minar",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679478906180_1679477523768.jpeg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641ad07a3acf9f5cb6e39634"
+      }
+    },
+    {
+      "question": "What is this?",
+      "option_1": "Desktop Computer",
+      "option_2": "Laptop",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679478993562_1679477524269.jpeg",
+      "answer": "2",
+      "_id": {
+        "$oid": "641ad0d13acf9f5cb6e3963a"
+      }
+    },
+    {
+      "question": "Who is this Freedom Fighter?",
+      "option_1": "Lal Bahadur Shastri",
+      "option_2": "Alluri Sitarama Raju",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679479247757_1679477523795.jpeg",
+      "answer": "2",
+      "_id": {
+        "$oid": "641ad1d03acf9f5cb6e39640"
+      }
+    },
+    {
+      "question": "Who is this?",
+      "option_1": "Chhatrapati Shivaji Maharaj",
+      "option_2": "Bajirao",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679479690574_Chhatrapati_Shivaji_Maharaj_Jayanti_2022.jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641ad38b3acf9f5cb6e39646"
+      }
+    },
+    {
+      "question": "What is this?",
+      "option_1": "Mobile",
+      "option_2": "Telephone",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679479754325_1679477524232.png",
+      "answer": "1",
+      "_id": {
+        "$oid": "641ad3ca3acf9f5cb6e3964c"
+      }
+    },
+    {
+      "question": "Who is this Freedom Fighter?",
+      "option_1": "Indira Gandhi",
+      "option_2": "Rani of Jhansi",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679480011452_images (4).jpg",
+      "answer": "2",
+      "_id": {
+        "$oid": "641ad4cb3acf9f5cb6e39652"
+      }
+    },
+    {
+      "question": "What is this Board Game?",
+      "option_1": "Chess",
+      "option_2": "Carrom",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679482280323_1679482116208.jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641adda93acf9f5cb6e3966d"
+      }
+    },
+    {
+      "question": "Who is this politician?",
+      "option_1": "Atal Bihari Vajpayee",
+      "option_2": "Narendra Modi",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679482393783_1679482116384.jpeg",
+      "answer": "2",
+      "_id": {
+        "$oid": "641ade1a3acf9f5cb6e39673"
+      }
+    },
+    {
+      "question": "Who is this Music Director?",
+      "option_1": "AR Rahman",
+      "option_2": "Pritam",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679482450995_1679482116499.jpeg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641ade533acf9f5cb6e39679"
+      }
+    },
+    {
+      "question": "In which category RRR win oscar?",
+      "option_1": " Best Original Song",
+      "option_2": "Best Film",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679482830367_download (12).jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641adfce3acf9f5cb6e3967f"
+      }
+    },
+    {
+      "question": "Who is this Actor?",
+      "option_1": "Salman Khan",
+      "option_2": "Shah Rukh Khan",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679482965303_1679482116438.jpeg",
+      "answer": "2",
+      "_id": {
+        "$oid": "641ae0553acf9f5cb6e39685"
+      }
+    },
+    {
+      "question": "What is this?",
+      "option_1": "Diamond",
+      "option_2": "Stone",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679483022099_download (3).jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641ae08e3acf9f5cb6e3968b"
+      }
+    },
+    {
+      "question": "Who is this Cricketer?",
+      "option_1": "Virat Kohli",
+      "option_2": "Rohit Sharma",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679483090252_1679482116264.jpeg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641ae0d23acf9f5cb6e39691"
+      }
+    },
+    {
+      "question": "What is this Bird?",
+      "option_1": "Crow",
+      "option_2": "Swan",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679483130253_1679482116560.jpg",
+      "answer": "2",
+      "_id": {
+        "$oid": "641ae0fb3acf9f5cb6e39697"
+      }
+    },
+    {
+      "question": "In which year india won ODI world cup under MS Dhoni Captaincy?",
+      "option_1": "2007",
+      "option_2": "2011",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679483280798_1679482116318.jpeg",
+      "answer": "2",
+      "_id": {
+        "$oid": "641ae1913acf9f5cb6e3969d"
+      }
+    },
+    {
+      "question": "Who is this Hockey Player?",
+      "option_1": "Dhyan Chand",
+      "option_2": "Sandeep Singh",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679483596286_download (5).jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641ae2cc3acf9f5cb6e396a3"
+      }
+    },
+    {
+      "question": "Who is this humanitarian and philanthropist",
+      "option_1": "Sonu Sood",
+      "option_2": "Shahid Kapoor",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679483892275_download (11).jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641ae3f43acf9f5cb6e396a9"
+      }
+    },
+    {
+      "question": "Who is this Film Director?",
+      "option_1": "Ram Gopal Varma",
+      "option_2": "puri jagannadh",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679484131631_download (13).jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641ae4e33acf9f5cb6e396af"
+      }
+    },
+    {
+      "question": "Who is this Boxer?",
+      "option_1": "Mary Kom",
+      "option_2": "Laishram Sarita Devi",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679484315525_download (14).jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641ae59b3acf9f5cb6e396b5"
+      }
+    },
+    {
+      "question": "What is this famous cartoon show?",
+      "option_1": "Mickey Mouse",
+      "option_2": "Tom & Jerry",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679484426658_download (15).jpg",
+      "answer": "2",
+      "_id": {
+        "$oid": "641ae60b3acf9f5cb6e396bb"
+      }
+    },
+    {
+      "question": "First man to score 200 runs in ODI cricket?",
+      "option_1": "Virender Sehwag",
+      "option_2": "Sachin Tendulkar",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679484590699_1_5e33f9e8e3816.jpg",
+      "answer": "2",
+      "_id": {
+        "$oid": "641ae6af3acf9f5cb6e396c1"
+      }
+    },
+    {
+      "question": "Who is this Olympic Gold Medal Winner?",
+      "option_1": "Abhinav Bindra",
+      "option_2": "Gagan Narang",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679484925741_download (16).jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641ae7fe3acf9f5cb6e396c7"
+      }
+    },
+    {
+      "question": "who is this Astronaut?",
+      "option_1": "Kalpana Chawla",
+      "option_2": "Sunita Williams",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679485116891_download (17).jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641ae8bd3acf9f5cb6e396cd"
+      }
+    },
+    {
+      "question": "Who is this Indian aerospace scientist?",
+      "option_1": "Vikram Sarabhai",
+      "option_2": "A. P. J. Abdul Kalam",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679485400514_download (18).jpg",
+      "answer": "2",
+      "_id": {
+        "$oid": "641ae9d83acf9f5cb6e396d3"
+      }
+    },
+    {
+      "question": "Who is this pop singer?",
+      "option_1": "Michael Jackson",
+      "option_2": "Akon",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679485503372_download (19).jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641aea423acf9f5cb6e396d9"
+      }
+    },
+    {
+      "question": "What is this Bird?",
+      "option_1": "Eagle",
+      "option_2": "Vulture",
+      "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1679485703598_download (20).jpg",
+      "answer": "1",
+      "_id": {
+        "$oid": "641aeb083acf9f5cb6e396df"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2022-04-06T14:27:13.359Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-05T08:57:19.701Z"
+  },
+  "__v": 51,
+  "status": 1
+}]

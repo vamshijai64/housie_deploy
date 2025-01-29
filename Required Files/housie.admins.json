@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "6457f1c9467d65e7c33c63d6"
+  },
+  "name": "admin",
+  "mobile": "9879786770",
+  "email": "admin@gmail.com",
+  "password": "$2a$10$YbYOezrfW6jOtE6MWh/LV.dE14MRf0FXY1Ple0XVFmPjH5Y/8F17q",
+  "isLoggedIn": true,
+  "isBlocked": "0",
+  "role": "super admin",
+  "admin_privileges": [],
+  "createdAt": {
+    "$date": "2023-05-07T18:45:29.593Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-07T18:45:29.593Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "645894389017c628b3662657"
+  },
+  "name": "bhanu prasad",
+  "mobile": "9849841359",
+  "email": "prasadbhanu551@gmail.com",
+  "password": "$2a$10$j1z3sxV2txNiWdm.fIIg2u5wugoTbDejBprYKQI2Vf3l4.dPEvV/S",
+  "isLoggedIn": true,
+  "isBlocked": "0",
+  "role": "sub admin",
+  "admin_privileges": [
+    "usersManagement",
+    "reports",
+    "notificationManagement"
+  ],
+  "createdAt": {
+    "$date": "2023-05-08T06:18:32.559Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-08T06:18:32.559Z"
+  },
+  "__v": 0
+}]

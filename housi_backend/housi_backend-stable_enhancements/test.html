@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const socket = io({
+      extraHeaders: {
+        token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJJZCI6IjYyMmM4MzA5MjAzZDJhNDA1MmMwMjE2YSIsImVtYWlsIjoidGVzdEBnbWFpbC5jb20ifSwiaWF0IjoxNjQ4MjA1MTY4LCJleHAiOjE3MzQ2MDUxNjh9.7mqDJY1mtsuLDVs0a2yb7pzPOtYmMA0Rdh38v8cHaLA"
+      }
+    })
+    var ticket = []
+
+    getGames = () => {
+      socket.emit('getGame', "")
+    }
+    socket.on("getGame", (data) => {
+      console.table(data.data);
+    });
+
+    generateTicket = () => {
+      socket.emit('generateTicket', "")
+    }
+    socket.on("generateTicket", (data) => {
+      console.table(data.data);
+      ticket = data.data
+    });
+
+    buyTicket = () => {
+      socket.emit('buyTicket', {
+        gameId: '11172', userId: '62933de564e05831a5c7b65a', number: '1'
+      })
+      // console.table(ticket)
+    }
+    socket.on("buyTicket", (data) => {
+      console.log(data);
+    });
+
+    getOnGoingGames = () => {
+      socket.emit('getOnGoingGames', {})
+    }
+    socket.on("getOnGoingGames", (data) => {
+      console.table(data.data);
+    });
+
+    getUpcomingGames = () => {
+      socket.emit('getUpcomingGames', {})
+    }
+    socket.on("getUpcomingGames", (data) => {
+      console.log(data);
+    });
+
+    getPreviousGames = () => {
+      socket.emit('getPreviousGames', {})
+    }
+    socket.on("getPreviousGames", (data) => {
+      console.log(data);
+    });
+    // Join Game
+    joinGame = () => {
+      socket.emit('joinGame', { userId: '62933de564e05831a5c7b65a', gameId: '11442' })
+    }
+    socket.on("joinGame", (data) => {
+      console.log('data rec❌❌❌ ', data);
+    });
+    throwNumber = () => {
+      socket.emit('throwNumbers', { gameId: '11438' })
+    }
+    socket.on("throwNumbers", (data) => {
+      console.log('data in throw numbers❌❌❌ ', data);
+    });
+    playGame = () => {
+      console.log('emit called===');
+      socket.emit('playGame', {
+        "ticketId": "629ae54209213369e2b2769e",
+        "userId": "62933de564e05831a5c7b65a",
+        "gameId": "11172",
+        "lineIndex": "1",
+        "numberIndex": "3",
+        "selectedNumber": 34 // send in number only
+      })
+    }
+    socket.on("playGame", (data) => {
+      console.log('data in playGame❌❌❌ ', data);
+    });
+
+    editTicket = () => {
+      console.log('emit called===');
+      socket.emit('editTicket', {
+        "ticketId": "62540434ca20bbc372c4e774",
+        "userId": "622f4fba4b4929f226257e0c",
+        // "gameId": "11000",
+        "lineIndex": "0",
+        "numberIndex": "0",
+        "selectedNumber": 7, // send in number only,
+        "updatedNumber":35
+      })
+    }
+    socket.on("editTicket", (data) => {
+      console.log('data in playGame❌❌❌ ', data);
+    });
+
+    getQuestionRes = () => {
+      socket.emit('getQuestionsReponse', {
+        "userId": "6255c0ea0dca7923a5260f9c",
+        "gameId": "11078",
+        questionId: "624da38852971d3502ad4993",
+        userSelectedOption: '2'
+      })
+    }
+    socket.on("getQuestionsReponse", (data) => {
+      console.log('data in playGame❌❌❌ ', data);
+    });
+
+    testSocket = () => {
+      socket.emit('test')
+    }
+    socket.on("test", (data) => {
+      console.log('data in test ', data);
+    });
+
+    claimSocket = () => {
+      socket.emit('claimPrize', {
+        userId: '627f56bd44eb56c835359920',
+        roomId: '11116',
+        claimType: 'cornerWinners'
+      })
+    }
+    socket.on("claimPrize", (data) => {
+      console.log('data in claim ', data);
+    });
+    gameStatus = () => {
+      socket.emit('checkGameStatus', {
+        gameId: '11078'
+      })
+    }
+    socket.on("checkGameStatus", (data) => {
+      console.log('data ', data);
+    });
+
+    userTicket = () => {
+      socket.emit('userTickets', {
+        userId: '627d50c936b12f5f944fe91c', gameId: '11078'
+      })
+    }
+    socket.on("userTickets", (data) => {
+      console.log('data ', data);
+    });
+    winnerStatus = () => {
+      socket.emit('winningStatus', {
+        gameId: '11177'
+      })
+    }
+    socket.on("winningStatus", (data) => {
+      console.log('data in winning ', data);
+    });
+
+    lastFive = () => {
+      socket.emit('lastFiveNumbers', {
+        gameId: '11092',
+        currentNumber: 29
+      })
+    }
+    socket.on("lastFiveNumbers", (data) => {
+      console.log('data in lastFiveNumbers ', data);
+    });
+
+  </script>
+</head>
+
+<body>
+
+  <div style="background-color: aquamarine;padding-bottom: 20px;">
+    <div class="row" style="width: 50%;margin: auto;">
+      <div class="col-sm">
+        <div class="mb-6 row">
+          <label for="userId" class="col-sm-3 col-form-label">User Id</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="userId" value="622c8309203d2a4052c0216a">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm">
+        <div class="mb-6 row">
+          <label for="gameId" class="col-sm-3 col-form-label">Game Id</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="gameId" value="622e3974b06a8ef45b7ff65d">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-sm" style="margin-top: 40px;">
+    <button class="btn btn-primary" onclick="getGames()">Get Games</button>
+    <button class="btn btn-primary" onclick="generateTicket()">Regenerate Ticket</button>
+    <button class="btn btn-primary" onclick="buyTicket()">Buy Ticket</button>
+    <button class="btn btn-primary" onclick="getOnGoingGames()">Get Ongoing Games</button>
+    <button class="btn btn-primary" onclick="getUpcomingGames()">Get Upcoming Games</button>
+    <button class="btn btn-primary" onclick="getPreviousGames()">Get previous Games</button>
+    <button class="btn btn-primary" onclick="joinGame()"> Join Room</button>
+    <button class="btn btn-primary" onclick="throwNumber()"> Throw Number</button>
+    <button class="btn btn-primary" onclick="playGame()"> Play Game</button>
+    <button class="btn btn-primary" onclick="editTicket()"> Edit Ticket</button>
+    <button class="btn btn-primary" onclick="getQuestionRes()"> Question Response</button>
+    <button class="btn btn-primary" onclick="testSocket()"> Test</button>
+    <button class="btn btn-primary" onclick="claimSocket()"> claim</button>
+    <button class="btn btn-primary" onclick="gameStatus()"> gameStatus</button>
+    <button class="btn btn-primary" onclick="userTicket()"> User tickets</button>
+    <button class="btn btn-primary" onclick="winnerStatus()"> winner status</button>
+    <button class="btn btn-primary" onclick="lastFive()"> last five numbers</button>
+  </div>
+</body>
+
+</html>

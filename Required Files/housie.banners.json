@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "6458852f9017c628b3661727"
+  },
+  "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1683522855621_download (1).png",
+  "show_status": true,
+  "BannerType": 1,
+  "created_by": "6457f1c9467d65e7c33c63d6",
+  "status": 1,
+  "createdAt": {
+    "$date": "2023-05-08T05:14:23.305Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-08T05:14:23.305Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "645885379017c628b366172c"
+  },
+  "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1683522863766_download2.png",
+  "show_status": true,
+  "BannerType": 2,
+  "created_by": "6457f1c9467d65e7c33c63d6",
+  "status": 1,
+  "createdAt": {
+    "$date": "2023-05-08T05:14:31.446Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-08T05:14:31.446Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6458853f9017c628b3661731"
+  },
+  "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1683522871687_facebook.png",
+  "show_status": true,
+  "BannerType": 1,
+  "created_by": "6457f1c9467d65e7c33c63d6",
+  "status": 1,
+  "createdAt": {
+    "$date": "2023-05-08T05:14:39.385Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-08T05:14:39.385Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "645885549017c628b3661736"
+  },
+  "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1683522893039_uday.jpg",
+  "show_status": true,
+  "BannerType": 2,
+  "created_by": "6457f1c9467d65e7c33c63d6",
+  "status": 1,
+  "createdAt": {
+    "$date": "2023-05-08T05:15:00.764Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-08T05:15:00.764Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "645888059017c628b366196c"
+  },
+  "image_name": "https://dreamhousi.s3.ap-south-1.amazonaws.com/folder/1683523581843_american-flag.jpg",
+  "show_status": true,
+  "BannerType": 1,
+  "created_by": "6457f1c9467d65e7c33c63d6",
+  "status": 1,
+  "createdAt": {
+    "$date": "2023-05-08T05:26:29.590Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-08T05:26:29.590Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,68 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'bugs',
+1 verbose cli   'housie-node' ]
+2 info using npm@2.15.11
+3 info using node@v4.9.1
+4 silly mapToRegistry name housie-node
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry data Result {
+7 silly mapToRegistry   raw: 'housie-node',
+7 silly mapToRegistry   scope: null,
+7 silly mapToRegistry   name: 'housie-node',
+7 silly mapToRegistry   rawSpec: '',
+7 silly mapToRegistry   spec: 'latest',
+7 silly mapToRegistry   type: 'tag' }
+8 silly mapToRegistry uri https://registry.npmjs.org/housie-node
+9 verbose request uri https://registry.npmjs.org/housie-node/latest
+10 verbose request no auth needed
+11 info attempt registry request try #1 at 4:24:36 PM
+12 verbose request id 9c27eb6aee126935
+13 http request GET https://registry.npmjs.org/housie-node/latest
+14 http 404 https://registry.npmjs.org/housie-node/latest
+15 verbose headers { date: 'Mon, 28 Feb 2022 10:54:37 GMT',
+15 verbose headers   'content-type': 'application/json',
+15 verbose headers   'content-length': '11',
+15 verbose headers   connection: 'keep-alive',
+15 verbose headers   'cf-ray': '6e491dab1e9a1d22-CPH',
+15 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+15 verbose headers   vary: 'Accept-Encoding',
+15 verbose headers   server: 'cloudflare' }
+16 silly get cb [ 404,
+16 silly get   { date: 'Mon, 28 Feb 2022 10:54:37 GMT',
+16 silly get     'content-type': 'application/json',
+16 silly get     'content-length': '11',
+16 silly get     connection: 'keep-alive',
+16 silly get     'cf-ray': '6e491dab1e9a1d22-CPH',
+16 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+16 silly get     vary: 'Accept-Encoding',
+16 silly get     server: 'cloudflare' } ]
+17 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/housie-node/latest
+17 verbose stack     at makeError (C:\Users\Info\AppData\Roaming\nvm\v4.9.1\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+17 verbose stack     at CachingRegistryClient.<anonymous> (C:\Users\Info\AppData\Roaming\nvm\v4.9.1\node_modules\npm\node_modules\npm-registry-client\lib\request.js:280:14)
+17 verbose stack     at Request._callback (C:\Users\Info\AppData\Roaming\nvm\v4.9.1\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+17 verbose stack     at Request.self.callback (C:\Users\Info\AppData\Roaming\nvm\v4.9.1\node_modules\npm\node_modules\request\request.js:187:22)
+17 verbose stack     at emitTwo (events.js:87:13)
+17 verbose stack     at Request.emit (events.js:172:7)
+17 verbose stack     at Request.<anonymous> (C:\Users\Info\AppData\Roaming\nvm\v4.9.1\node_modules\npm\node_modules\request\request.js:1044:10)
+17 verbose stack     at emitOne (events.js:77:13)
+17 verbose stack     at Request.emit (events.js:169:7)
+17 verbose stack     at IncomingMessage.<anonymous> (C:\Users\Info\AppData\Roaming\nvm\v4.9.1\node_modules\npm\node_modules\request\request.js:965:12)
+18 verbose statusCode 404
+19 verbose pkgid housie-node
+20 verbose cwd E:\test\New folder\f\housie-backend
+21 error Windows_NT 10.0.19044
+22 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "bugs" "housie-node"
+23 error node v4.9.1
+24 error npm  v2.15.11
+25 error code E404
+26 error 404 Registry returned 404 for GET on https://registry.npmjs.org/housie-node/latest
+26 error 404
+26 error 404 'housie-node' is not in the npm registry.
+26 error 404 You should bug the author to publish it (or use the name yourself!)
+26 error 404
+26 error 404 Note that you can also install from a
+26 error 404 tarball, folder, http url, or git url.
+27 verbose exit [ 1, true ]

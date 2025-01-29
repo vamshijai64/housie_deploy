@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    restart: always
+    ports:
+      - "3717:27017"
+
+  redis:
+    image: redis
+    container_name: redis
+    restart: always
+    ports:
+      - "6379:6379"
+
+  # housibackend:
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile
+  #   container_name: housi_backend
+  #   restart: always
+  #   ports:
+  #     - "3002:3002"
+  #   depends_on:
+  #     - mongodb
+  #     - redis
+  #   environment:
+  #     - MONGODB_URI=mongodb://mongodb:27017/housi
+  #     - REDIS_URI=redis
+  # admin:
+  #   build:
+  #     context: E:\Projects\housi_admin
+  #     dockerfile: Dockerfile
+  #   container_name: admin
+  #   restart: always
+  #   ports:
+  #     - "4200:4200"
+
+  # nginx:
+  #   image: deployment
+  #   container_name: nginx
+  #   restart: always
+  #   ports:
+  #     - "80:80"
+  #   depends_on:
+  #     - housibackend
+
